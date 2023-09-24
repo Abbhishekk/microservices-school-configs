@@ -1,5 +1,7 @@
 server:
     port: 8081
+    error:
+        include-message: always
     
 eureka:
     instance:
@@ -13,4 +15,13 @@ spring:
     username: root
     password: password
   jpa:
-    hibernate.ddl-auto: update
+    hibernate.ddl-auto: update 
+
+keycloak:
+  realm:
+    name: master
+  server:
+    url: http://localhost:8080
+  clientId: admin-cli
+  username: admin
+  password: admin
