@@ -13,6 +13,6 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/school_db
     username: root
-    password: password
+    password: Abhishek
   jpa:
     hibernate.ddl-auto: update 
